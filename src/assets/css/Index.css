@@ -1,0 +1,27 @@
+/*首页-首页推荐-今日推荐-top*/
+ul li {padding:0;margin:0;list-style:none;}
+.Recommended .header {overflow: hidden;margin-bottom: 20px;width: 100%;font-size:12px;line-height: 20px;}
+.el-breadcrumb {display: inline-block;}
+.Recommended .header .el-button {float: right;margin-top: 20px;}
+.Recommended .header .title {width: 94%;border-bottom: 1px solid #ccc;float: left;line-height: 30px;}
+/*首页-首页推荐-今日推荐-筛选盒子样式*/
+.Recommended .btn_box {width: 100%;height: 70px;line-height: 70px;background-color: #ccc;}
+.Recommended .btn_box ul li {float: left;}
+.Recommended .btn_box ul li:nth-child(2) {float: right;margin-right: 12px;}
+.Recommended .btn_box ul li .button {width: 100px}
+.Recommended .generalScreening {width: 100%;height: 80px;line-height: 70px;border: 1px solid #ccc;}
+.Recommended .generalScreening ul {height: 100%;margin:5px 0 0 0;}
+.Recommended .generalScreening ul li {width: 30%;float: left;}
+.Recommended .generalScreening ul li .num {width: 200px;}
+/*展示的列表数据*/
+.Recommended .lists {margin-top: 20px;}
+.Recommended .lists .listTitle {float: left;width: 40%;}
+.Recommended .lists .listSort {float: right;margin-bottom: 10px;}
+.Recommended .lists .dataList {border-color: #262626}
+.Recommended .lists .dataList .dataListTable {width: 100%;}
+.Recommended .lists .dataList .dataListTable .info {color: #13ce66;cursor: pointer}
+.Recommended .lists .dataList .dataListTable .update{margin-left: 10px;color: #CBD066;cursor: pointer}
+.Recommended .lists .dataList .dataListTable .delete{margin-left: 10px;color: #CBD0D6;cursor: pointer}
+.Recommended .lists .dataList .dataListBtn {width: 90%;margin-top: 20px;overflow: hidden}
+.Recommended .lists .dataList .dataListBtn .dataListBtnFl {float: left;}
+.Recommended .lists .dataList .dataListBtn .dataListBtnFr {float: right;}

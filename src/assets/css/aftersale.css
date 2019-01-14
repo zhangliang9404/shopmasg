@@ -1,0 +1,36 @@
+.aftersale .header{
+  height: 30px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+em,i{font-style: normal}
+.aftersale .order_content{width: 100%;margin: 0}
+/*左边部分*/
+.aftersale .order_content .left{width: 70%;float: left;box-sizing: border-box;padding:  20px }
+.aftersale .order_content .left .title_top{height: 50px;line-height: 50px;}
+.aftersale .order_content .left .title_top span{font-weight: 900;margin-right: 50px}
+.aftersale .order_content .left .title_top i{color: #3baf22;margin-right: 10px}
+.aftersale .order_content .left .title_top em{color: #0000ff}
+.aftersale .order_content .left .title_tit{height: 70px;line-height: 50px;border-bottom: 1px solid #f5f7fa}
+.aftersale .el-steps--simple{width: 54%;margin-bottom: 20px}
+.aftersale .order_content .left .calcel_status{margin-top: 40px;}
+.aftersale .order_content .left ul.resoult{padding: 0;border-bottom: 1px solid #f5f7fa;padding-bottom: 20px}
+.aftersale .order_content .left ul.resoult li{margin-left: 20px;width: 370px;margin-bottom: 10px}
+
+.aftersale .order_content .left .list_bottom .cancel_resouce,.aftersale .order_content .left .list_bottom .cancel_resouce .cacel_item,.aftersale .order_content .left .list_bottom .cancel_resouce .cacel_item p{margin: 0;padding: 0}
+.aftersale .order_content .left .list_bottom .cancel_resouce{margin-top: 20px;height: auto;}
+.aftersale .order_content .left .list_bottom .cancel_resouce .cacel_item{height: 70px;display: flex;margin-bottom: 20px;padding: 0 20px }
+.aftersale .order_content .left .list_bottom .cancel_resouce .cacel_item img{width: 70px;height: 70px}
+.aftersale .order_content .left .list_bottom .cancel_resouce .cacel_item .box_tit{display: flex;flex-direction: column;justify-content: space-between;
+  margin: 0 20px;width:70%;}
+.aftersale .order_content .left .list_bottom .cancel_resouce .supp_bg{background: rgba(215, 215, 215, 1)}
+/*右边部分*/
+.aftersale .order_content .right{width: 30%;border-left: 1px solid #f5f7fa;float: right;box-sizing: border-box}
+.aftersale .order_content .right>p{padding-left: 20px;border-bottom: 1px solid #f5f7fa;height: 40px;margin-bottom: 0}
+.aftersale .order_content .right .top{padding: 20px;overflow: hidden;border-bottom: 1px solid #f5f7fa;}
+.aftersale .order_content .right .top img{width: 70px;height: 70px;display: block;float: left;margin-top: 10px}
+.aftersale .order_content .right .top .tit{float: left;margin-left: 20px}
+.aftersale .order_content .right .top .tit p{margin: 0;height: 30px;line-height: 30px}
+.aftersale .order_content .right .middle{padding-left: 20px;border-bottom: 1px solid #f5f7fa;}
+.aftersale .order_content .right .middle span,.aftersale .order_content .right .bottom span{margin-left: 10px}
+.aftersale .order_content .right .bottom{padding-left: 20px;}

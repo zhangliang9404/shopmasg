@@ -1,0 +1,38 @@
+.statisticsData .header{
+  border-bottom: 1px solid #eee;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+}
+.statisticsData .condition{margin: 20px auto}
+.statisticsData .content{}
+.statisticsData .content .top_one{display: flex;justify-content: space-between;margin-bottom: 30px}
+.statisticsData .content .top_one .item{width:200px;height: 200px;background: #fff;border: 1px solid rgba(204, 204, 204, 1);color: rgba(204, 204, 204, 1)}
+.statisticsData .content .top_one .item p:nth-of-type(1){background: rgba(204, 204, 204, 1);height: 50px;text-align: center;margin: 0;line-height: 50px;color: #fff}
+.statisticsData .content .top_one .item .it{padding-left: 20px;}
+.statisticsData .content .top_one .item .it span{margin-left: 20px;color: #999999}
+.statisticsData .content .statistics{display: flex;}
+.statisticsData .content .statistics .left{width: 65%;height: auto;box-sizing: border-box;padding: 0 20px}
+.statisticsData .content .statistics .left ul,.statisticsData .content .statistics .left ul li{margin: 0;padding: 0;list-style: none}
+.statisticsData .content .statistics .left ul{float: right}
+.statisticsData .content .statistics .left ul li{float: left}
+.statisticsData .content .statistics .right{width: 35%;background: #fff;padding-bottom: 20px}
+.statisticsData .content .statistics .right .dai{color: #999999;margin-left: 40px}
+.statisticsData .content .statistics .right>div>ul,.statisticsData .content .statistics .right>div>ul li{margin: 0;padding: 0;list-style: none}
+.statisticsData .content .statistics .right>div>ul{margin: 0 auto;display: block;width: 200px;overflow: hidden;}
+.statisticsData .content .statistics .right>div>ul li{float: left;position: relative;}
+.statisticsData .content .statistics .right>div>ul li .el-button--small{padding: 9px 30px}
+.statisticsData .content .statistics .right .lists{clear: bottom;}
+.statisticsData .content .statistics .right .lists p{padding-left: 10px;color: #8e8e8e}
+.statisticsData .content .statistics .right .lists ul{padding-left:30px;color: #8e8e8e;}
+.statisticsData .content .statistics .right .lists ul.scro{height: 300px;overflow-y:scroll}
+.statisticsData .content .statistics .right .lists ul li{margin-top:10px;border-bottom: 1px solid #eee;}
+.statisticsData .content .statistics .right .lists ul li p span{margin: 0 5px}
+.statisticsData .content .statistics .right .lists ul li p{line-height: 30px}
+.statisticsData .content .statistics .right .lists ul li p em{font-style: normal;line-height: 0;font-size: 35px;}
+.statisticsData .content .bottom{margin-top: 20px}
+.statisticsData .content .bottom .diff{float: left;width: 40%;background: #fff;overflow: hidden;padding-bottom: 10px;border: 1px solid rgba(204, 204, 204, 1);}
+.statisticsData .content .bottom .bottom_title{text-align: center;background:rgba(204, 204, 204, 1);color: #fff;height: 50px;line-height: 50px;margin: 0}
+.statisticsData .content .bottom ul{margin: 0;padding: 0;}
+.statisticsData .content .bottom ul li{list-style: none;margin: 0;padding: 0;float: left}
+.statisticsData .content .bottom ul{width:300px;margin: 10px auto 20px;overflow: hidden}

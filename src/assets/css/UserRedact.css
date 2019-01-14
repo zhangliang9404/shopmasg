@@ -1,0 +1,53 @@
+.redact{
+	height: 100%;
+	width: 450px;
+	padding: 0 4px;
+	font-size: 20px;
+	display: block;
+	/*margin: auto;*/
+	vertical-align:middle;/*表单控件上下居中对齐*/
+}
+
+.gender{
+}
+/*所有的div*/
+.chare1{white-space:nowrap; padding-top: 0.5rem;}
+
+.el-input__inner{
+	height: 55px;
+}
+
+
+.el-form-item__content{	
+	white-space: nowrap;
+	font-size: 20px;
+}
+.el-form-item {
+    margin-bottom: 0px;
+}
+/*按钮*/
+.button{ padding: 1.2rem 0rem 0rem 10.9rem;}
+.el-button {
+	 font-size: 24px;
+	 padding-top: 1.2rem;
+}
+/*开关*/
+.login_hang{padding-top: 1.5rem; }
+
+.el-form{	width: 12rem;white-space:nowrap;}
+.el-input{width: 150%;padding-top: 0.5rem;}
+
+/*下拉箭头*/
+.el-input__icon {height: 134%;width: 50%;}
+/*省份选择框*/
+.el-select-dropdown .el-popper{
+
+}
+/*//选择地址*/
+.chare2{font-size: 20px;}
+.el-form-item__label{ padding: 30px 0px 0 0;font-size: 20px;}
+.el-input .el-input--suffix{padding-left: 5rem;}
+
+/*目录*/
+.el-breadcrumb {margin: 0rem 0rem 0rem 0rem;font-size: 24px;line-height: 2;}
+

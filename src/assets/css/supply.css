@@ -1,0 +1,22 @@
+ul li,ul{margin: 0;padding: 0;list-style: none}
+p{margin: 0;padding: 0}
+.supply .supply_left{width: 30%;position: relative;overflow: hidden;border: 1px solid #dcdfe6;float: left;min-height: 800px}
+.supply .supply_left .po_mirror{position: absolute;top:32px;left: 30px;z-index: 11111111;color: #dcdfe6;}
+.supply .supply_left ul{margin-top: 20px;height: auto;}
+.supply .supply_left ul li{height: 70px;display: flex;margin-bottom: 20px;padding: 0 20px }
+.supply .supply_left ul li img{width: 70px;height: 70px}
+.supply .supply_left ul li .box_tit{display: flex;flex-direction: column;justify-content: space-between;
+  margin: 0 20px;width:50%;overflow: hidden;}
+.supply .supply_left ul li .box_tit p{overflow: hidden; white-space: nowrap;text-overflow:ellipsis;}
+.supply .supply_left ul .supp_bg{background: rgba(215, 215, 215, 1)}
+.supply .supply_right{float: left;width: 50%;min-height:700px;margin-left: 10px;padding: 0 20px;position: relative}
+.supply .supply_right .top{border-bottom: 1px solid #eee;height: 30px;line-height: 30px;margin-top: 50px }
+.supply .supply_right ul{margin: 20px 0 50px 0}
+.supply .supply_right ul li{ }
+.supply .supply_right ul li .datas{text-align: center;margin-bottom: 20px}
+.supply .supply_right ul li .merchant,.supply .supply_right ul li .service{height: 30px;line-height: 30px}
+.supply .supply_right ul li .merchant{color: #66cccc}
+.supply .supply_right .m-text {height:240px;;border-top:1px solid #ddd;width:95%;margin-left:20px;background-color: #fff;position:absolute;left:0;padding-top: 10px;overflow :auto;position: absolute;bottom: 0}
+.supply .supply_right .m-text .textarea {border:none;outline:0;resize:none;width: 95%}
+.supply .supply_right .m-text-content {padding: 10px 10px 10px 0px;}
+.supply .supply_right .m-text .chat-btn {float: right;margin-right: 50px;margin-top: 15px;}

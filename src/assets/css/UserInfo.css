@@ -1,0 +1,90 @@
+body{color: #333; font-size: 14px;}
+.el-breadcrumb{margin: 0 0 14px;}
+.explanation{color: #f93429;font-size: 12px;}
+.explanation i{font-size: 18px; margin-right: 5px;}
+/*目录*/
+.el-breadcrumb {margin: 0rem 0rem 5rem 0rem;font-size: 24px;line-height: 2;}
+/*卡片大小*/	
+.el-card {width: 13rem;height: 10rem;padding: 2rem 0rem 3rem 3rem;}
+/*头像*/
+.image { width: 5rem; padding: 0rem 0rem 0rem 1rem;}
+.userin{	text-align: center;width:100%;border-collapse:collapse;}
+/*积分和姓名*/
+.el-card__body {padding: 0px 63px 18px 0px;} 
+/*积分*/
+.el-button {margin: 0.6rem 0.2rem 0.2rem 0.2rem; padding: 8px 20px;}
+
+.userin td{font-size:16px;border:1px solid #E1E2E3;padding:3px 7px 80px 7px;}
+/*.userin .title{color:#000000;background-color:#FFFFFF; height:45px;line-height: 45px}*/
+.el-breadcrumb{margin: 0 0 14px;}
+/*统计记录*/
+.el-icon-edit{font-size:20px; padding-bottom: 2rem;}
+/*第一个表格*/
+.notwrap{width:100%;height: 30%; font-size:16px;border: 2rem ;}
+.biaoge1{width: 130rem;height: 16rem;padding-left: 1rem;}
+.img{width: 100rem;}
+/*第二个表格*/
+.biaoge2{font-size:16px; padding: 2rem 0rem 3rem 0.6rem;border-top: 15rem;}
+
+
+.menusStateTrue{background: #5B7BFA;color:white;}
+.menusStateTrue:hover{background: #5B7BFA;color:white;}
+
+/*高级检索*/
+.left{width: 50%;height: 100%; padding: 1rem 1rem 1rem 1rem;}
+.you{width: 50%;height: 100%; padding: 1rem 1rem 1rem 1rem;}
+/*横线*/
+.el-card__body {
+    padding: 21px;
+}
+.el-form-item__label {
+	float: left;
+	line-height: 0px;
+}
+.hr{margin-bottom: 1rem; margin-top: 1rem;} 
+.userlist_backgroud{width: 100%;}
+body{color: #333; font-size: 14px;}
+.el-breadcrumb{margin: 0 0 14px;}
+.explanation{color: #f93429;font-size: 12px;}
+.explanation i{font-size: 18px; margin-right: 5px;}
+/*目录*/
+.el-breadcrumb {margin: 0rem 0rem 5rem 0rem;font-size: 24px;line-height: 2;}
+/*卡片大小*/	
+.el-card {width: 13rem;height: 10rem;padding: 2rem 0rem 3rem 3rem;}
+/*头像*/
+.image { width: 5rem; padding: 0rem 0rem 0rem 1rem;}
+.userin{	text-align: center;width:100%;border-collapse:collapse;}
+/*积分和姓名*/
+.el-card__body {padding: 0px 63px 18px 0px;} 
+/*积分*/
+.el-button {margin: 0.6rem 0.2rem 0.2rem 0.2rem; padding: 8px 20px;}
+
+.userin td{font-size:16px;border:1px solid #E1E2E3;padding:3px 7px 80px 7px;}
+/*.userin .title{color:#000000;background-color:#FFFFFF; height:45px;line-height: 45px}*/
+.el-breadcrumb{margin: 0 0 14px;}
+/*统计记录*/
+.el-icon-edit{font-size:20px; padding-bottom: 2rem;}
+/*第一个表格*/
+.notwrap{width:100%;height: 30%; font-size:16px;/*border:1px solid #E1E2E3;*/border: 2rem;}
+.biaoge1{width: 130rem;height: 16rem;padding-left: 1rem;}
+.img{width: 100rem;}
+/*第二个表格*/
+.biaoge2{font-size:16px;padding: 2rem 0rem 3rem 0.6rem;border-top: 15rem;}
+
+
+.menusStateTrue{background: #5B7BFA;color:white;}
+.menusStateTrue:hover{background: #5B7BFA;color:white;}
+
+/*高级检索*/
+.left{width: 50%;height: 100%; padding: 1rem 1rem 1rem 1rem;}
+.you{width: 50%;height: 100%; padding: 1rem 1rem 1rem 1rem;}
+/*横线*/
+.el-card__body {
+    padding: 21px;
+}
+.el-form-item__label {
+	float: left;
+	line-height: 0px;
+}
+.hr{margin-bottom: 1rem; margin-top: 1rem;} 
+.userlist_backgroud{width: 100%;}

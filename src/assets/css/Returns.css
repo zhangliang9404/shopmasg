@@ -1,0 +1,29 @@
+/*目录*/
+.el-breadcrumb {font-size: 14px;/* line-height: 1; */}
+.text1{font-size: 20px;padding-top: 1rem;}
+.text2{white-space:nowrap;padding-top: 1rem;width: 100%;}
+
+
+/*订单信息*/
+.orderinfo2 span{margin-right: 40px; }
+/*OrderState8*/
+.one{margin: 10px 0;color: #555;}
+.one span{margin-right: 40px;}
+.two{margin: 10px 0 0;color: #555;}
+.two span{margin-right: 40px;}
+/*订单备注*/
+.el-dialog__header{background: #606266; }
+.el-dialog__title{color: #fff;}
+.ordernotes{padding-left: 20px;}
+.ordernotes .radio{margin-top: 7px;}
+/*关键词*/
+.el-select .el-input {
+    width: 130px;
+  }
+  .input-with-select .el-input-group__prepend {
+    background-color: #fff;
+  }
+/*显示页数*/
+.text3{padding-top: 2rem;padding-bottom: 2rem;}
+/*输入编号*/
+.el-form-item__label{color: #000000; font-size: 18px;}

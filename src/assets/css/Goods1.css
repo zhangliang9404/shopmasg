@@ -1,0 +1,135 @@
+.el-breadcrumb{margin: 0 0 14px;}
+.explanation{color: #f93429;font-size: 0.8rem;}
+/*商品分类管理*/
+.search{width: 30%; float: left; margin-right:20px;}
+.update-button{margin: 10px 0;}
+.update-list{width: 772px;overflow: hidden;position:relative;padding-bottom: 40px}
+.update-list-info{flex: 1;display: flex;align-items: center; justify-content: space-between; font-size: 16px;}
+.goods-info{margin: 20px 0;}
+
+.cell>div{text-align: center!important;}
+/*商品分类添加*/
+.form{ padding:  30px 20px;position: relative;}
+.left{width: 50%;position: relative;}
+.right{width: 50%;position: absolute;right: 0;top: 30px}
+.manage p{color: #333; width: 15%; float: left;  text-align: center;}
+.el-input__inner{width:100%;}
+.el-dialog{width: 80%;}
+.footer{margin-top: 20px;text-align: center;}
+/*在售商品管理*/
+.sewidth{width: 50%;}
+.elwidth{width: 120px;}
+/*商品分类*/
+.update-list_left{
+  width: 356px;
+  float: left;
+  color: #999999;
+  display: inline-block;
+  background: rgba(242, 242, 242, 1);
+}
+.update-list_center{
+  width: 60px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.update-list_center>img{
+  margin-left: 18px;
+}
+.update-list_right{
+  width: 356px;
+  display: inline-block;
+  color: #999999;
+  float: left;
+  background: rgba(242, 242, 242, 1);
+}
+.update-list_left p{
+  width: 100%;
+}
+.update-list_left p>span,.update-list_right p>span{
+  margin-left: 10px;
+}
+.update-list p em span:nth-of-type(1){
+  margin-right: 30px;
+}
+.update-list p em{
+  font-style: normal;
+  float: right;
+  color:  #0000ff;
+  margin-right: 30px;
+}
+.update-list p em span{
+  text-decoration:underline;
+  cursor: pointer;
+}
+.update-list p em span:nth-of-type(1){
+  margin-right: 20px;
+}
+.update-list ul{
+  /*border: 1px solid #c8c8c8;*/
+  border-bottom: 0;
+  padding: 0;
+  width: 326px;
+  margin: 20px auto;
+}
+.update-list ul li{
+  list-style: none;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  padding-left: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+}
+.update-list ul li:nth-child(1){
+  border-top: 1px solid #c8c8c8;
+}
+.update-list ul li span{
+  display: block;
+  float: right;
+  font-size: 20px;
+  color: #c8c8c8;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.Noshow{
+  width: 326px;
+  margin: 0 auto;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+table img{
+  border: 1px solid gray;
+  display: inline-block;
+  width: 58px!important;
+  height: 58px!important;
+}
+/*商品名称*/
+.shopName{
+  display: inline-block;
+  width: 200px;
+  height: 56px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left!important;
+  margin-left: 18px;
+}
+.active{
+  background: rgba(228, 228, 228, 1)!important;
+}
+
+.el-table th>div{
+  text-align: center!important;
+}
+
+.isPeiSong{
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+}

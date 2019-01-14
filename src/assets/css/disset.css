@@ -1,0 +1,25 @@
+.dis_set .header{
+  border-bottom: 1px solid #eee;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+}
+.dis_set .dis_set .el-breadcrumb{
+  margin-top: 10px;
+}
+.dis_set .header button{
+  position: absolute;
+  left: 80%;
+  top:0;
+}
+.dis_set .title_head{height: 70px;}
+.dis_set .title_head p{margin: 0;}
+.dis_set .title_head .setting{font-size: 30px;margin-top:5px;float: left}
+.dis_set .title_head em{font-style: normal;float:left;margin-left: 10px;font-weight: bold;margin-top: 5px}
+.dis_set .title_head p:nth-of-type(2){
+  margin-top: 10px;color: #ccc;
+  clear: left;
+  font-size: 12px;
+  margin-left: 40px;
+  margin-top: 5px;
+}

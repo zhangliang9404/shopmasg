@@ -1,0 +1,370 @@
+.el-breadcrumb{margin: 0 0 14px;}
+.explanation{color: rgb(153, 153, 153);;font-size: 0.8rem;}
+/*商品分类管理*/
+.search{width: 30%; float: left; margin-right:20px;}
+.update-button{margin: 10px 0;}
+.update-list{width: 772px;overflow: hidden;position:relative;padding-bottom: 40px}
+.update-list-info{flex: 1;display: flex;align-items: center; justify-content: space-between; font-size: 16px;}
+.goods-info{margin: 20px 0;}
+.cell{text-align: center!important;}
+/*商品分类添加*/
+.form{ padding:  30px 20px;position: relative;}
+.left{width: 50%;position: relative;}
+.right{width: 50%;position: absolute;right: 0;top: 30px}
+.manage p{color: #333; width: 15%; float: left;  text-align: center;}
+.el-input__inner{width:100%;}
+.el-dialog{width: 80%;}
+.footer{margin-top: 20px;text-align: center;}
+/*在售商品管理*/
+.sewidth{width: 50%;}
+.elwidth{width: 120px;}
+/*商品分类*/
+.update-list_left{
+  width: 356px;
+  float: left;
+  color: #999999;
+  display: inline-block;
+  background: rgba(242, 242, 242, 1);
+}
+.update-list_center{
+  width: 60px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.update-list_center>img{
+  margin-left: 18px;
+}
+.update-list_right{
+  width: 356px;
+  display: inline-block;
+  color: #999999;
+  float: left;
+  background: rgba(242, 242, 242, 1);
+}
+.update-list_left p{
+  width: 100%;
+}
+.update-list_left p>span,.update-list_right p>span{
+  margin-left: 10px;
+}
+.update-list p em span:nth-of-type(1){
+  margin-right: 30px;
+}
+.update-list p em{
+  font-style: normal;
+  float: right;
+  color:  #0000ff;
+  margin-right: 30px;
+}
+.update-list p em span{
+  text-decoration:underline;
+  cursor: pointer;
+}
+.update-list p em span:nth-of-type(1){
+  margin-right: 20px;
+}
+.update-list ul{
+  /*border: 1px solid #c8c8c8;*/
+  border-bottom: 0;
+  padding: 0;
+  width: 326px;
+  margin: 20px auto;
+}
+.update-list ul li{
+  list-style: none;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  padding-left: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+  background: white;
+  font-size: 14px;
+}
+.update-list ul li:nth-child(1){
+  border-top: 1px solid #c8c8c8;
+}
+
+.Noshow{
+  width: 326px;
+  margin: 0 auto;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.active{
+  background: rgba(228, 228, 228, 1)!important;
+}
+
+
+.peisong>div label{
+  display: block;
+  padding: 5px 0;
+  margin-left: 20px!important;
+}
+.peisong1,.peisong{
+  margin-top: 50px;
+}
+.el-form-item__label{
+  line-height: 24px;
+}
+
+
+
+/*运费模板*/
+.muban{
+  width: 690px;
+  margin-left: 120px;
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 20px 20px 0;
+  color: #545c64;
+}
+.muban .muban_lists{
+  border-bottom: 1px dashed black;
+  padding: 0 10px;
+}
+.zhiding{
+  padding: 0 10px;
+}
+.muban .tongcheng_kuaidi{
+  overflow: hidden;
+}
+.muban .tongcheng{
+  overflow: hidden;
+  float: left;
+}
+.muban .chakan{
+  float: right;
+}
+.muban span{
+  float: left;
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  line-height: 25px;
+  background: white;
+  border: 1px solid #409Eff;
+  color: #409Eff;
+}
+.muban .kuaidi{
+  margin-left: 20px;
+}
+.tips_box{
+  width: 100%;
+  height: 32px;
+}
+.tips_box .tips_img{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 16px;
+  font-weight: 400;
+  background-color: #0099ff;
+  color: #FFFFFF;
+}
+.tips_box .tips_text{
+  color: rgb(153, 153, 153);;
+}
+
+/*问答管理-列表*/
+ul li {padding:0;margin:0;list-style:none;}
+.AnswerList .header {overflow: hidden;margin-bottom: 20px;width: 100%;font-size:12px;line-height: 20px;}
+.el-breadcrumb {display: inline-block;}
+.AnswerList .header .el-button {float: right;margin-top: 20px;}
+.AnswerList .header .title {width: 94%;border-bottom: 1px solid #ccc;float: left}
+/*筛选盒子样式*/
+.AnswerList .btn_box {width: 100%;height: 50px;line-height: 50px;background-color: #ccc;}
+.AnswerList .btn_box ul li {float: left;}
+.AnswerList .btn_box ul li:nth-child(2) {float: right;margin-right: 12px;}
+.AnswerList .btn_box ul li .button {width: 100px}
+.AnswerList .generalScreening {width: 100%;height: 50px;border: 1px solid #ccc;}
+.AnswerList .generalScreening ul {height: 100%;margin:5px 0 0 0;}
+.AnswerList .generalScreening ul li {width: 30%;float: left;}
+.AnswerList .generalScreening ul li .num {width: 200px;}
+/*展示的列表数据*/
+.AnswerList .lists {margin-top: 20px;}
+.AnswerList .lists .listTitle {float: left;width: 40%;}
+.AnswerList .lists .listSort {float: right;margin-bottom: 10px;}
+.AnswerList .lists .dataList {border-color: #262626}
+.AnswerList .lists .dataList .dataListTable {width: 100%;}
+.AnswerList .lists .dataList .dataListTable .info {color: #13ce66;}
+.AnswerList .lists .dataList .dataListTable .delete{margin-left: 20px;color: #ff99d6;}
+.AnswerList .lists .dataList .dataListBtn {width: 90%;margin-top: 20px;overflow: hidden}
+.AnswerList .lists .dataList .dataListBtn .dataListBtnFl {float: left;}
+.AnswerList .lists .dataList .dataListBtn .dataListBtnFr {float: right;}
+/*问答管理-详情*/
+.AnswerDetail .header {overflow: hidden;margin-bottom: 20px;width: 100%;font-size:12px;line-height: 20px;}
+.AnswerDetail .header .title {float: left;width: 94%;border-bottom: 1px solid #ccc;}
+
+.DetailTitle .border {border-left: 10px solid #13ce66;}
+.DetailTitle .border .borderTitle {margin-left: 10px;}
+
+.content{
+  overflow: hidden;
+  margin-top: 10px;
+  border: 1px solid #eee;
+  width: 80%;
+  height: 100%;
+  font-family: "微软雅黑 Bold", "微软雅黑 Regular", "微软雅黑";
+  color: #999999;
+  font-size: 16px;
+}
+.con_left{
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+.con_left_block img{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+.con_left_block p{
+  text-align: center;
+  margin: 20px auto 40px;
+}
+.con_left_block ul{
+  margin-left: 20px;
+}
+.con_left_block ul li{
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+}
+.con_left_block ul li>span{
+  float: left;
+  display: block;
+}
+.list_name{
+  font-weight: bold;
+}
+.list_content{
+  width: 120px;
+  overflow: hidden;
+  font-weight: 100;
+}
+
+.con_right{
+  display: block;
+  float: left;
+  height: 100%;
+  width: 79.9%;
+  border-left: 1px solid #eee;
+}
+
+.shoucang{
+  margin-left: 20px;
+}
+.text_right{
+  margin: 20px;
+  border-top:1px solid #eee ;
+  display: block;
+  height: 300px;
+  padding-top: 10px;
+
+}
+.content_text ul{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.content_text ul li{
+  float: left;
+  margin-right: 10px;
+}
+.content_text ul li img{
+  width: 70px;
+  height: 70px;
+
+}
+.huifu p,.hui_list>p{
+  border-bottom: 1px solid #eee;
+  line-height: 30px;
+}
+.hui_list ul li{
+  border-bottom: 1px solid #eee;
+
+  overflow: hidden;
+  display: block;
+}
+.hui_list .hui_left{
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+.hui_list .hui_left img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.hui_list .hui_right{
+  float: left;
+  padding-left: 40px;
+}
+.hui_list .hui_right p{
+  line-height: 20px;
+}
+.hui_list .hui_right p:nth-of-type(1){
+  line-height: 0px;
+}
+.T-Group{
+  /*display: flex;*/
+  /*margin-top: 20px;*/
+}
+.T-Group .left{
+  width: 100px;
+  text-align: right;
+  color: #606266;
+}
+.T-Group .right{
+  width: 300px;
+}
+
+.AnswerDetail .DetailTitle {margin-bottom: 20px;}
+.AnswerDetail .DetailTitle .border {border-left: 10px solid #13ce66;}
+.AnswerDetail .DetailTitle .border .borderTitle {margin-left: 10px;}
+.AnswerDetail .DetailTitle .borderBtn {margin-left: 75%;}
+.AnswerDetail .content {overflow: hidden;margin-top: 10px;border: 1px solid #eee;width: 95%;height: 100%;color: #878787; font-size: 16px;}
+.AnswerDetail .content .con_left {width: 20%;float: left;height: 100%;}
+.AnswerDetail .content .con_left_block img {display: block;width: 80px;height: 80px;border-radius: 50%;margin: auto;margin-top: 50px;}
+.AnswerDetail .content .con_left_block p {text-align: center;margin: 20px auto 40px;}
+.AnswerDetail .content .con_left_block ul {margin-left: 20px;}
+.AnswerDetail .content .con_left_block ul li {overflow: hidden;height: 30px;line-height: 30px;}
+.AnswerDetail .content .con_left_block ul li>span {float: left;display: block;}
+.AnswerDetail .content .list_name {font-weight: bold;}
+.AnswerDetail .content .list_content {width: 120px;overflow: hidden;font-weight: 100;}
+.AnswerDetail .content .con_right {display: block;float: left;height: 100%;width: 79.9%;border-left: 1px solid #eee;}
+.AnswerDetail .content .con_right .con_right_top {margin-left: 20px;display: inline-block;line-height: 60px;}
+.AnswerDetail .content .con_right .con_right_top .num {margin-left: 10px}
+.AnswerDetail .content .con_right .text_right {margin: 0 20px 20px 20px;border-top:1px solid #eee ;display: block;height: 300px;padding-top: 10px;}
+.AnswerDetail .content .con_right .ask {line-height: 30px;}
+.AnswerDetail .content .con_right .answer .title {padding-bottom: 10px;border-bottom: 1px solid #eee;line-height: 30px;color: #13ce66;}
+.AnswerDetail .content .con_right .answer ul>li {overflow: hidden;border-bottom: 1px solid #eee;}
+.AnswerDetail .content .con_right .answer ul>li>div {float: left;}
+.AnswerDetail .content .con_right .answer ul>li>div>img {margin-right: 20px;border-radius: 50%;width: 70px;height: 70px;}
+.AnswerDetail .content .con_right .answer .status {padding: 2px 5px;margin-left: 10px;border-radius: 10px;background-color: #ff99d6;color: #fff;}
+.AnswerDetail .content .con_right .answer .answerBtn1 {color: #13ce66;margin-left: 20px;}
+.AnswerDetail .content .con_right .answer .answerBtn2 {color: #ff99d6;margin-left: 20px;}
+.AnswerDetail .content .con_right .text_right .page {float: right;padding-bottom: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

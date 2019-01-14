@@ -1,0 +1,19 @@
+body{color: #333; font-size: 1rem;}
+.el-breadcrumb{margin: 0 0 14px;}
+.explanation{color: #f93429;font-size: 0.8rem;}
+.explanation i{font-size: 1.5rem; margin-right: 5px;}
+/*团购*/
+.group .search{margin: 10px 0;width: 40%}
+.group .operatebutton{margin-top: 20px;}
+.group .table{width: 100%;margin-top: 20px}
+/*添加团购*/
+.addGroup .search1{background-color: rgba(240, 239, 239, 1);height: 40px;padding: 10px 0;overflow: hidden;}
+.addGroup .search_left{width: 50%;float: left}
+.addGroup .explain{color: #828282;margin: 12px 0 12px 130px;font-size: 12px;}
+.updateGroup .explain{color: #828282;margin: 12px 0 12px 130px;font-size: 12px;}
+/*限时抢购*/
+.scareBuying .search{margin: 10px 0;width: 40%}
+.scareBuying .operatebutton{margin-top: 20px;}
+/*添加限时抢购*/
+.addScareGroup .explain{color: #828282}
+

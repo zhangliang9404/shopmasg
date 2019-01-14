@@ -1,0 +1,54 @@
+/*目录*/
+.el-breadcrumb {font-size: 14px;}
+.text1{font-size: 20px;padding-top: 1rem;}
+.text2{white-space:nowrap;padding-top: 1rem;width: 100%;}
+/*物流*/
+.track-list{margin: 0 20px; padding-left: 5px; position: relative;height: 100px;overflow: auto;}
+.track-list ul {padding-left: 0;margin: 0}
+.track-list li{position: relative; padding: 10px 0 0 25px; line-height: 18px; border-left: 1px solid #d9d9d9; color: #999;list-style: none;}
+.track-list li .node-icon{position: absolute; left: -6px; top: 50%; width: 11px; height: 11px; background: url(../img/order-icons.png) -21px -72px no-repeat;}
+.track-list li .time{margin-right: 20px; position: relative; top: 4px; display: inline-block; vertical-align: middle;}
+.track-list li .txt{max-width: 600px; position: relative; top: 4px; display: inline-block; vertical-align: middle;}
+.track-list li:last-child {color: #45af05; padding-top: 10px; border-left-color: #fff;}
+.track-list li:last-child .node-icon{background-position:0 -72px;}
+/*订单信息*/
+.orderinfo2 span{margin-right: 40px; }
+/*OrderState8*/
+.one{margin: 10px 0;color: #555;}
+.one span{margin-right: 40px;}
+.two{margin: 10px 0 0;color: #555;}
+.two span{margin-right: 40px;}
+/*订单备注*/
+.el-dialog__header{background: #606266; }
+.el-dialog__title{color: #fff;}
+.ordernotes{padding-left: 20px;}
+.ordernotes .radio{margin-top: 7px;}
+/*关键词*/
+.el-select .el-input { width: 130px; }
+.input-with-select .el-input-group__prepend { background-color: #fff; }
+/*显示页数*/
+.text3{padding-top: 2rem;padding-bottom: 2rem;}
+/*订单编号*/
+.el-form-item__label{color: #262626; font-size: 18px;}
+/*订单详情表格*/
+.total{margin: 10px 0;}
+.total p{font-size: 1rem; margin: 2px; color: #666;}
+.el-row p { margin: 2px 0;}
+.el-col { border-radius: 4px; }
+.bg-purple-dark { background: #99a9bf; }
+.bg-purple { background: #d3dce6;}
+.bg-purple-light { background: #e5e9f2;}
+.grid-content { border-radius: 4px; min-height: 36px; }
+.row-bg { padding: 10px 0; background-color: #f9fafc; }
+/*发货单*/
+.el-tabs__nav{ width: 100%; }
+.el-tabs__item{ width: 65%; }
+.DispatchBill .dis_set .el-breadcrumb{margin-top: 10px;}
+.DispatchBill .flex_box span{margin-left: 20px}
+.DispatchBill .flex_box{display: flex;justify-content: space-between;}
+.DispatchBill .flex_box>div{width: 200px;}
+.DispatchBill .flex_box button{background: none;width: 80px;border: 1px solid #eee;height: 30px;margin: 0}
+.DispatchBill .search_title{display: flex;justify-content: flex-end;}
+.DispatchBill .search_title .el-select{margin-right: 10px}
+.DispatchBill .el-pagination{margin-top: 20px}
+.DispatchBill .sign {padding: 2px 6px; color: #13ce66; border-radius: 50%; border: 1px solid #13ce66; position: absolute;top: 10px; z-index: 99; }

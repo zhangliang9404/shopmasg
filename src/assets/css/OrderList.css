@@ -1,0 +1,79 @@
+body{color: #333; font-size: 12px;}
+.el-breadcrumb{margin: 0 0 14px;}
+.explanation{color: #f93429;font-size: 0.8rem;}
+.explanation i{font-size: 1.5rem; margin-right: 5px;}
+/*选择条件搜索*/
+.OrderList .searchBorder {padding: 20px 20px 0;border: 1px solid #e4e7ed;}
+.OrderList .searchBorder .borderFlex {display: -webkit-flex; /* Safari */-webkit-flex-wrap: wrap; /* Safari 6.1+ */display: flex;flex-wrap: wrap;width: 90%;}
+
+.operatebutton{margin-bottom: 10px;}
+/*是否团购*/
+.ifGroup{ padding: 5px 10px;background: #3baf22;color: #fff;border-radius: 10px;margin-left: 10px}
+/*点击详细信息*/
+.demo-table-expand {font-size: 0; }
+.demo-table-expand label {color: #99a9bf;}
+.demo-table-expand .el-form-item {margin-right: 0;margin-bottom: 0; width: 50%; }
+/*订单状态-等待买家付款*/
+.ordertime{margin: 10px 0; height: 42px;}
+.ordertime .timeinfo{width: 25%;text-align: center;float: left;}
+.orderstate1{border: 1px solid #e5d5c7; padding: 10px 20px; margin-bottom: 20px;}
+.orderinfo1{border: 1px solid #e5d5c7; padding: 10px 20px;}
+.total{margin: 10px 0;}
+.total p{font-size: 1rem; margin: 5px; color: #666;}
+/*物流*/
+.track-rcol{ border: 1px solid #eee;}
+.track-rcol ul li{list-style: none;}
+.track-list{margin: 20px; padding-left: 5px; position: relative;height: 300px;overflow: auto}
+.track-list li{position: relative; padding: 10px 0 0 25px; line-height: 18px; border-left: 1px solid #d9d9d9; color: #999;}
+.track-list li .node-icon{position: absolute; left: -6px; top: 50%; width: 11px; height: 11px; background: url(../img/order-icons.png) -21px -72px no-repeat;}
+.track-list li .time{margin-right: 20px; position: relative; top: 4px; display: inline-block; vertical-align: middle;}
+.track-list li .txt{max-width: 600px; position: relative; top: 4px; display: inline-block; vertical-align: middle;}
+.track-list li:last-child {color: #45af05; padding-top: 10px; border-left-color: #fff;}
+.track-list li:last-child .node-icon{background-position:0 -72px;}
+/*订单信息*/
+.orderinfo2 span{margin-right: 40px; }
+/*OrderState0*/
+.one{margin: 10px 0;color: #555;}
+.one span{margin-right: 40px;}
+.two{margin: 10px 0 0;color: #555;}
+.two span{margin-right: 40px;}
+/*订单备注*/
+.el-dialog__header{background: #606266; }
+.el-dialog__title{color: #fff;}
+.ordernotes{padding-left: 20px;}
+.ordernotes .radio{margin-top: 7px;}
+.info{font-size: 14px; border-bottom: 1px solid #ebeef5;border-left: 1px solid #ebeef5;border-right: 1px solid #ebeef5; padding: 12px 20px;color: #666;}
+.info .title{float: left;width: 200px;font-weight:normal}
+.info1{border-bottom: 1px solid #ebeef5;border-left: 1px solid #ebeef5;border-right: 1px solid #ebeef5; padding: 12px 20px;color: red;background: #dadadc;}
+.info1 .title{float: left;width: 200px;font-weight:normal}
+.info2{font-size: 14px; border: 1px solid #ebeef5;padding: 12px 20px;color: #666;}
+.info2 .title{float: left;width: 200px;font-weight:normal}
+.info span{margin-right: 100px;}
+.info2 span{margin-right: 100px;}
+/*订单设置*/
+.set .el-input{width: 20%;margin-right:10px ;}
+.rem{margin-left: 20px;color: #D9D9D9;}
+.reml{margin-left: 10px;color: #D9D9D9;}
+/*修改配送模板*/
+.explain{margin: 0;color: #888;}
+.border1{border: 1px solid #ebeef5;}
+.border1 .b-title{background: #ebeef5; margin:10px; padding: 10px;}
+.b-border{margin:10px;}
+.b-border table {border-collapse: collapse;}
+.b-border table, td, th { border: 1px solid #ebeef5; }
+.b-border td{text-align: center;letter-spacing: 1px;}
+.b-border input{border: 0px;outline:none;}
+/*物流模板设置*/
+.search{width: 30%; float: left; margin-right:20px;}
+.model{margin-bottom: 20px;}
+.model1{background: #D9D9D9; height: 50px;line-height: 50px;padding: 5px 20px; margin-top: 10px; color: #555;}
+/*合作方*/
+.join{border-bottom: 1px solid #ebeef5; padding-top: 10px;}
+.join .way span{margin-right: 40px;}
+/*沟通*/
+.record1{border-bottom: 1px solid #ebeef5; padding: 10px 0 5px;}
+.record1 .con{float: left; width: 70%; font-weight: normal;}
+.record1 span{margin-right: 40px;}
+
+/*列表*/
+.orderlist .el-date-editor.el-input, .el-date-editor.el-input__inner{width: 180px}

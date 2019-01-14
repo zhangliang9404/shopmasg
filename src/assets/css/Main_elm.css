@@ -1,0 +1,25 @@
+/*清除浮动代码*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+
+a{text-decoration: none;color: #666;}
+/*a标签的更改*/
+.a_color{text-decoration: none;color: #666;}
+/*主菜单栏目*/
+.Main .el-header,.el-footer {	background-color: #545c64;color: #fff;	line-height: 60px;}
+.Main .el-submenu__title{border-bottom: 1px solid #686a6f;color: #fff;}
+.Main .el-submenu__title:hover{background-color: #262626;}
+.Main .el-submenu__title i{color: #fff;}
+.Main .el-menu{background-color: #545c64;}
+.Main .el-menu-item{color: #fff;}
+.Main .el-menu-item:focus{background-color: #262626;}
+.Main .el-menu-item:hover{background-color: #262626;}
+.Main .el-submenu.is-active .el-submenu__title{border-bottom: 1px solid #686a6f;}
+.Main .el-container{width: 100%;}
+/*左侧导航栏*/
+.Main a {color: #fff;}
+.Main .router-link-active {color: rgb(255, 208, 75)!important;}
+/*订单列表*/
+.OrderList .area-select .area-selected-trigger{line-height: 14px;}
+.OrderList .el-tabs__header {margin: 0;}
+.OrderList .el-table--border, .el-table--group {border-top: none;}

@@ -1,0 +1,50 @@
+/*供应商列表-按钮btn盒子样式*/
+.SupplierList .btn_box {width: 100%;height: 70px;line-height: 70px;background-color: #ccc;}
+.SupplierList .btn_box .num {width: 200px;}
+.SupplierList .page {float: right;margin: 10px;}
+.SupplierList .searchGoods {width: 240px;margin-bottom: 10px;}
+/*展示的列表数据*/
+.SupplierList .lists {margin-top: 20px;}
+.SupplierList .lists .listTitle {float: left;width: 40%;}
+.SupplierList .lists .listSort {float: right;margin-bottom: 10px;margin-right: 20px;}
+.SupplierList .lists .dataList {border-color: #262626}
+.SupplierList .lists .dataList .dataListTable {width: 100%;}
+.SupplierList .lists .dataList .dataListTable .info {color: #13ce66;}
+.SupplierList .lists .dataList .dataListTable .update{margin-left: 10px;color: #CBD066;}
+.SupplierList .lists .dataList .dataListTable .delete{margin-left: 10px;color: #CBD0D6;}
+.SupplierList .lists .dataList .dataListBtn {width: 100%;margin-top: 20px;overflow: hidden}
+.SupplierList .lists .dataList .dataListBtn .dataListBtnFl {float: left;}
+.SupplierList .lists .dataList .dataListBtn .dataListBtnFr {float: right;}
+
+/*新增供应商*/
+.SupplierAdd .SupplierContent {width: 95%;border: 1px solid #eee;padding: 10px 20px;overflow: hidden;}
+.SupplierAdd .titleInfo {padding: 0 10px;background: #eee;line-height: 50px;font-size: 16px;color: #262626;}
+.SupplierAdd .borderFlex {display: -webkit-flex;-webkit-flex-wrap: wrap;display: flex;flex-wrap: wrap;width: 90%;}
+.SupplierAdd .InfoBox  {border: 1px solid #eee;padding-top: 20px;margin-top: 10px;overflow: hidden;}
+/*编辑商户*/
+.SupplierUpdate .SupplierContent {width: 95%;border: 1px solid #eee;padding: 10px 20px;overflow: hidden;}
+.SupplierUpdate .titleInfo {padding: 0 10px;background: #eee;line-height: 50px;font-size: 16px;color: #262626;}
+.SupplierUpdate .borderFlex {display: -webkit-flex;-webkit-flex-wrap: wrap;display: flex;flex-wrap: wrap;width: 90%;}
+.SupplierUpdate .InfoBox  {border: 1px solid #eee;padding-top: 20px;margin-top: 10px;overflow: hidden;}
+/*查看供应商*/
+.SupplierInfo .SupplierContent {width: 95%;border: 1px solid #eee;padding: 10px 20px;overflow: hidden;}
+.SupplierInfo .titleInfo {padding: 0 10px;background: #eee;line-height: 50px;font-size: 16px;color: #262626;}
+.SupplierInfo .borderFlex {display: -webkit-flex;-webkit-flex-wrap: wrap;display: flex;flex-wrap: wrap;width: 90%;}
+.SupplierInfo .InfoBox  {border: 1px solid #eee;padding-top: 20px;margin-top: 10px;overflow: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
